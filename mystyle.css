@@ -22,7 +22,7 @@ ul li a {
 }
 
 ul li a:hover {
-background-color: red;
+background-color: crimson;
 }
 
 ul li a.active {
