@@ -5,20 +5,22 @@ ul {
 list-style-type: none;
 margin: 0;
 padding: 0;
-width: 200px;
-background-color: cornflowerblue;
+overflow: hidden;
+background-color: black;
 }
 
-li a {
-display: block;
-color: black
-padding: 8px 16 px;
-text-decoration: none;
+ul li {
+  float: left;
 }
 
-li a:hover {
-background-color: darkblue;
-color: white;
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
+ul li a:hover {
+background-color: red;
 }
