@@ -16,14 +16,14 @@ ul li {
 }
 
 ul li a, dropbtn {
-  display: block;
+  display: inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-ul li a:hover .dropdown:hover .dropbtn {
+li a:hover .dropdown:hover .dropbtn {
 background-color: crimson;
 }
 
