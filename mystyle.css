@@ -4,11 +4,13 @@ margin: 0;
 padding: 0 20px;
 }
 
-ul {
+ul.navbar {
 list-style-type: none;
 margin: 0;
 padding: 0;
 position: fixed;
+top: 0;
+left: 0;
 background-color: black;
 width: 100%;
 z-index:1000; /*Dit bepaalt de stapelvolgorde, dus het zorgt ervoor dat het menu altijd boven 'bovenop' de rest komt.*/
