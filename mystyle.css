@@ -49,7 +49,7 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: black;}
+.dropdown-content a:hover {background-color: crimson;}
 
 .dropdown:hover .dropdown-content {
   display: block;
