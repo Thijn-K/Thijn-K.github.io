@@ -7,7 +7,7 @@ ul {
 list-style-type: none;
 margin: 0;
 padding: 0;
-overflow: hidden;
+position: fixed;
 background-color: black;
 }
 
@@ -29,6 +29,7 @@ background-color: crimson;
 
 li.dropdown {
   display: inline-block;
+  position: relative;
 }
 
 .dropdown-content {
