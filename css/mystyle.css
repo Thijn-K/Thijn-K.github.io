@@ -74,17 +74,17 @@ ul {
 }
 
 footer {
-color: white;
-text-align: center;
-font-weight: bold; /*Zorgt ervoor dat de tekst dikgedrukt is*/
-font-family: fantasy; /*Zorgt voor het lettertype*/
-position: fixed;
-margin: 0;
-padding: 0;
-top:0; 
-left: 0;
-width: 100%;
-z-index:1000;
-background-color: crimson
+  color: white;
+  text-align: center;
+  font-weight: bold; /*Zorgt ervoor dat de tekst dikgedrukt is*/
+  font-family: fantasy; /*Zorgt voor het lettertype*/
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  top:0; 
+  left: 0;
+  width: 100%;
+  z-index:1000;
+  background-color: crimson
 
 }
