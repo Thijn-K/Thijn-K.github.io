@@ -43,7 +43,7 @@ li.dropdown {
   position: absolute;
   background-color: black;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /*Zorgt voor een schaduw om het element heen*/
   z-index: 1;
 }
 
@@ -77,10 +77,13 @@ footer {
   color: white;
   text-align: center; /*Zorgt ervoor dat de tekst in het midden staat*/
   font-weight: bold; /*Zorgt ervoor dat de tekst dikgedrukt is*/
-  font-family: fantasy; /*Zorgt voor het lettertype*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /*Zorgt voor het lettertype*/
   position: fixed;
   margin: 0;
-  padding: 20;
+  padding: 30px 0;
+  bottom: 0;
   width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1000;
   background-color: crimson;
 }
