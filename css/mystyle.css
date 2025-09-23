@@ -80,7 +80,8 @@ font-family: fantasy; /*Zorgt voor het lettertype*/
 position: fixed;
 margin: 0;
 padding: 0;
-top: 0;
+top: 10;
+bottom: 10;
 left: 0;
 width: 100%;
 z-index:1000;
