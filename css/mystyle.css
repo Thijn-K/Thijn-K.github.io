@@ -73,5 +73,9 @@ ul {
 }
 
 footer {
+color: white;
+float: initial;
+font-style:oblique;
 background-color: crimson
+
 }
