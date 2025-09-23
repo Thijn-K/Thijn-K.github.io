@@ -75,7 +75,7 @@ ul {
 footer {
 color: white;
 text-align: center;
-font-style:oblique; /*Zorgt ervoor dat de tekst dikgedrukt is*/
+font-weight: bold; /*Zorgt ervoor dat de tekst dikgedrukt is*/
 font-family: fantasy; /*Zorgt voor het lettertype*/
 background-color: crimson
 
