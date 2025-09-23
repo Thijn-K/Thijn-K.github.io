@@ -79,9 +79,8 @@ footer {
   font-weight: bold; /*Zorgt ervoor dat de tekst dikgedrukt is*/
   font-family: fantasy; /*Zorgt voor het lettertype*/
   position: fixed;
-  margin: 0;
+  margin: 20;
   padding: 0;
-  left: 0;
   width: 100%;
   background-color: crimson;
 }
