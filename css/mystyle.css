@@ -81,7 +81,7 @@ footer {
   color: white;
   text-align: center; /*Zorgt ervoor dat de tekst in het midden staat*/
   font-weight: bold; /*Zorgt ervoor dat de tekst dikgedrukt is*/
-  text-size-adjust: 56;
+  font-size: smaller;
   font-family: Verdana, Geneva, Tahoma, sans-serif; /*Zorgt voor het lettertype*/
   position: fixed;
   margin: 0;
