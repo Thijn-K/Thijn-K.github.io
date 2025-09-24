@@ -1,16 +1,19 @@
 body {
   background-color: blanchedalmond; /*Dit is de achtergrondkleur*/
-  margin: 0;
-  padding: 0 20px;
+  margin: 0; /*De ruimte buiten de rand van een element*/
+  padding: 0 20px; /*De ruimte binnen de rand van een element, zorgt ervoor dat de tekst niet
+  helemaal tegen de rand aan staat.*/
 }
 
 ul.navbar {
-  list-style-type: none;
+  list-style-type: none; /*Zorgt ervoor dat de bolletjes / opsommingstekens niet zichtbaar zijn
+  in het menu.*/
   margin: 0;
   padding: 0;
-  position: fixed;
-  top: 0; /*Zorgt ervoor dat de menubalk bovenaan de pagina blijft.*/
-  left: 0;
+  position: fixed; /*Zorgt ervoor dat de menubalk altijd vast blijft staan op zijn plek (bovenkant)
+  en dus niet meebeweegt bij scrollen.*/
+  top: 0; /*Zorgt ervoor dat de menubalk helemaal bovenaan de pagina staat.*/
+  left: 0; /*Zorgt ervoor dat de menubalk helemaal links staat, onafhankelijk van de padding.*/
   background-color: black;
   width: 100%; /*Zorgt ervoor dat de menubalk over de volledige breedte van de pagina loopt.*/
   z-index:1000; /*Dit bepaalt de stapelvolgorde, dus het zorgt ervoor dat het menu altijd boven
@@ -18,7 +21,7 @@ ul.navbar {
 }
 
 ul li {
-  float: left;
+  float: left; /*Zorgt ervoor dat het menu aan de linkerzijde 'vast' zit*/
 }
 
 ul li a, .dropbtn {
@@ -29,7 +32,8 @@ ul li a, .dropbtn {
   text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+li a:hover, .dropdown:hover .dropbtn { /*Hover zorgt ervoor dat als je met je muis over het blokje
+heen gaat, het blokje een andere kleur krijgt.*/
 background-color: crimson;
 }
 
@@ -44,7 +48,7 @@ li.dropdown {
   background-color: black;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /*Zorgt voor een schaduw om het element heen*/
-  z-index: 1;
+  /*z-index: 1;*/
 }
 
 .dropdown-content a {
