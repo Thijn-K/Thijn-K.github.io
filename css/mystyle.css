@@ -2,7 +2,7 @@ body {
   background-color: blanchedalmond; /*Dit is de achtergrondkleur*/
   margin: 0; /*De ruimte buiten de rand van een element*/
   padding: 0 20px; /*De ruimte binnen de rand van een element, zorgt ervoor dat de tekst niet
-  helemaal tegen de rand aan staat.*/
+  helemaal tegen de rand links en rechts aan staat.*/
 }
 
 ul.navbar {
