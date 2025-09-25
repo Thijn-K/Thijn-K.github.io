@@ -34,7 +34,7 @@ ul li a, .dropbtn {
 
 li a:hover, .dropdown:hover .dropbtn { /*Hover zorgt ervoor dat als je met je muis over het blokje
 heen gaat, het blokje een andere kleur krijgt.*/
-background-color: crimson;
+background-color: #D9C4B0;
 }
 
 li.dropdown {
@@ -58,7 +58,7 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: crimson;}
+.dropdown-content a:hover {background-color: #D9C4B0;}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -67,7 +67,7 @@ li.dropdown {
 
 
 ul li a.active {
-  background-color: crimson;
+  background-color:#D9C4B0;
 }
 
 ul {
@@ -77,7 +77,7 @@ ul {
 }
 
 footer {
-  color: white;
+  color: #D9C4B0;
   text-align: center; /*Zorgt ervoor dat de tekst in het midden staat*/
   font-weight: bold; /*Zorgt ervoor dat de tekst dikgedrukt is*/
   font-family: Verdana, Geneva, Tahoma, sans-serif; /*Zorgt voor het lettertype*/
