@@ -1,5 +1,5 @@
 body {
-  background-color: #BBDCE5; /*Dit is de achtergrondkleur*/
+  background-color: #CFAB8D; /*Dit is de achtergrondkleur*/
   margin: 0; /*De ruimte buiten de rand van een element*/
   padding: 0 20px; /*De ruimte binnen de rand van een element, zorgt ervoor dat de tekst niet
   helemaal tegen de rand links en rechts aan staat.*/
@@ -34,7 +34,7 @@ ul li a, .dropbtn {
 
 li a:hover, .dropdown:hover .dropbtn { /*Hover zorgt ervoor dat als je met je muis over het blokje
 heen gaat, het blokje een andere kleur krijgt.*/
-background-color: #CFAB8D;
+background-color: #BBDCE5;
 color: black;
 }
 
@@ -59,7 +59,7 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #CFAB8D;}
+.dropdown-content a:hover {background-color: #BBDCE5;}
 
 
 .dropdown:hover .dropdown-content {
@@ -69,7 +69,7 @@ li.dropdown {
 
 
 ul li a.active {
-  background-color:#CFAB8D;
+  background-color:#BBDCE5;
   color: black;
 }
 
