@@ -94,3 +94,12 @@ footer {
   z-index: 1000;
   background-color: black;
 }
+
+.introtext {
+text-align: center; /*Zorgt ervoor dat tekst in het midden van de pagina staat*/
+margin: 100px 50px;
+max-width: 75%; /*Maximale breedte van het tekstvlak*/
+background-color: white;
+border-radius: 12px; /*Zorgt voor afgeronde hoeken*/
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
