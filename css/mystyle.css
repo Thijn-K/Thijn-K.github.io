@@ -97,7 +97,7 @@ footer {
 
 .introtext {
 text-align: center; /*Zorgt ervoor dat de tekst in het midden van de pagina staat*/
-margin: 30px 20px;
+margin: 30px 20px; /*is auto nodig???*/
 padding: 20px;
 max-width: 75%; /*Maximale breedte van het tekstvlak*/
 background-color: white;
