@@ -97,7 +97,8 @@ footer {
 
 .introtext {
 text-align: center; /*Zorgt ervoor dat de tekst in het midden van de pagina staat*/
-margin: 30px 20px; /*is auto nodig???*/
+margin: 30px auto 20px auto; /*Auto zorgt ervoor dat het element / het witte blok precies in het midden
+van de pagina staat*/
 padding: 20px;
 max-width: 75%; /*Maximale breedte van het tekstvlak*/
 background-color: white;
@@ -107,7 +108,7 @@ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 
 .collage {
 text-align: center;
-margin: 30px 20px;
+margin: 30px auto 20px auto;
 padding: 20px;
 max-width: 95%;
 background-color: white;
