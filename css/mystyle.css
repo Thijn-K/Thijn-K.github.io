@@ -132,6 +132,8 @@ float: left;
 
 .tekst-rechts {
 float: right;
+}
+
 
 .video {
 text-align: center;
@@ -141,6 +143,4 @@ max-width: 75%;
 background-color: white;
 border-radius: 12px; /*Zorgt voor afgeronde hoeken*/
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
 }
