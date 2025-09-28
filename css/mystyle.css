@@ -96,8 +96,7 @@ footer {
 }
 
 .introtext {
-text-align: center;
-text-align: justify; /*Zorgt ervoor dat tekst mooi is uitgelijnd*/
+text-align: center; /*Zorgt ervoor dat de collage in het midden van de pagina staat*/
 margin: 30px auto 20px auto; /*Auto zorgt ervoor dat de tekst precies in het midden staat.*/
 padding: 20px;
 max-width: 75%; /*Maximale breedte van het tekstvlak*/
@@ -107,7 +106,7 @@ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .collage {
-text-align: center; /*Zorgt ervoor dat de collage in het midden van de pagina staat*/
+text-align: center;
 margin: 30px auto 20px auto;
 padding: 20px;
 max-width: 95%;
