@@ -96,6 +96,7 @@ footer {
 }
 
 .introtext {
+text-align: center;
 text-align: justify; /*Zorgt ervoor dat tekst mooi is uitgelijnd*/
 margin: 30px auto 20px auto; /*Auto zorgt ervoor dat de tekst precies in het midden staat.*/
 padding: 20px;
