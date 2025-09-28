@@ -116,7 +116,7 @@ border-radius: 12px;
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.tekst-links, tekst-rechts {
+.tekst-links, .tekst-rechts {
 text-align: justify; /*Zorgt ervoor dat de tekst mooi uitgelijnd is.*/
 margin: 30px 2px;
 padding: 20px;
