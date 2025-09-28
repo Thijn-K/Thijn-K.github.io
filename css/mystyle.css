@@ -133,3 +133,8 @@ float: left;
 .tekst-rechts {
 float: right;
 }
+
+.video iframe {
+width: 100%;
+aspect-ratio: 16 / 9; /*Zorgt ervoor dat de hoogte en breedte de goede verhouding houden.*/
+}
