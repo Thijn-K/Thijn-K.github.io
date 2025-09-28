@@ -150,6 +150,7 @@ aspect-ratio: 16 / 9; /*Zorgt ervoor dat de hoogte en breedte de goede verhoudin
 
 .knop {
 display: inline-block;
+border: none;
 padding: 10px 20px;
 background-color: #CFAB8D;
 color: black;
