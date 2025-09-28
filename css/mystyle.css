@@ -86,7 +86,7 @@ footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif; /*Zorgt voor het lettertype*/
   position: fixed;
   margin: 0;
-  padding: px 0;
+  padding: 10px 0;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -137,13 +137,13 @@ float: right;
 .video {
 margin: 30px auto;
 padding: 20px;
-max-width: 75%; /*Maximale breedte van het tekstvlak*/
+max-width: 75%; /*Maximale breedte van het witte vlak*/
 background-color: white;
-border-radius: 12px; /*Zorgt voor afgeronde hoeken*/
+border-radius: 12px;
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .video iframe { /*iframe zorgt ervoor dat dit alleen op het filmpje wordt toegepast.*/
-width: 100%;
+width: 100%; /*Maximale breedte van het filmpje*/
 aspect-ratio: 16 / 9; /*Zorgt ervoor dat de hoogte en breedte de goede verhouding houden.*/
 }
