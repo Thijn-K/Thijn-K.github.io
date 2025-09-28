@@ -154,7 +154,7 @@ border: none;
 padding: 10px 20px;
 background-color: #CFAB8D;
 color: black;
-text-decoration: none;
+text-decoration: none; /*Zorgt ervoor dat de knop er niet meer als een link uit ziet, dus de onderstreping is weg*/
 border-radius: 12px;
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
