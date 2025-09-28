@@ -109,7 +109,7 @@ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 text-align: center; /*Zorgt ervoor dat tekst in het midden van de pagina staat*/
 margin: 30px auto 20px auto; /*Auto zorgt ervoor dat de tekst precies in het midden staat.*/
 padding: 20px;
-max-width: 100%; /*Maximale breedte van het tekstvlak*/
+max-width: 90%; /*Maximale breedte van het tekstvlak*/
 background-color: white;
 border-radius: 12px; /*Zorgt voor afgeronde hoeken*/
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
