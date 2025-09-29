@@ -135,6 +135,7 @@ float: right;
 }
 
 .video {
+text-align: center;
 margin: 30px auto;
 padding: 20px;
 max-width: 75%; /*Maximale breedte van het witte vlak*/
