@@ -150,8 +150,9 @@ aspect-ratio: 16 / 9; /*Zorgt ervoor dat de hoogte en breedte de goede verhoudin
 }
 
 .knop {
-display: inline-block;
-border: none;
+display: inline-block; /*Dit is een normaal blok, maar door inline neemt het blok alleen de
+benodigde ruimte in en niet extra onnodige ruimte op een nieuwe regel.*/
+border: none; /*Zorgt ervoor dat er geen rand om de knop heen zit.*/
 padding: 10px 20px;
 background-color: #CFAB8D;
 color: black;
