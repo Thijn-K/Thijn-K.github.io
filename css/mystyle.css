@@ -96,67 +96,73 @@ footer {
 }
 
 .middentekst {
-text-align: center; /*Zorgt ervoor dat de tekst in het midden van de pagina staat*/
-margin: 30px auto 20px auto; /*Auto zorgt ervoor dat het element / het witte blok precies in het midden
-van de pagina staat*/
-padding: 20px;
-max-width: 75%; /*Maximale breedte van het tekstvlak*/
-background-color: white;
-border-radius: 12px; /*Zorgt voor afgeronde hoeken*/
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  text-align: center; /*Zorgt ervoor dat de tekst in het midden van de pagina staat*/
+  margin: 30px auto 20px auto; /*Auto zorgt ervoor dat het element / het witte blok precies
+  in het midden van de pagina staat*/
+  padding: 20px;
+  max-width: 75%; /*Maximale breedte van het tekstvlak*/
+  background-color: white;
+  border-radius: 12px; /*Zorgt voor afgeronde hoeken*/
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .collage {
-text-align: center;
-margin: 30px auto 20px auto;
-padding: 20px;
-max-width: 95%;
-background-color: white;
-border-radius: 12px;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  text-align: center;
+  margin: 30px auto 20px auto;
+  padding: 20px;
+  max-width: 95%;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .tekst-links, .tekst-rechts {
-text-align: justify; /*Zorgt ervoor dat de tekst mooi uitgelijnd is.*/
-margin: 30px 10px;
-padding: 20px;
-max-width: 45%;
-background-color: white;
-border-radius: 12px;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  text-align: justify; /*Zorgt ervoor dat de tekst mooi uitgelijnd is.*/
+  margin: 30px 10px;
+  padding: 20px;
+  max-width: 45%;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .tekst-links {
-float: left;
+  float: left;
 }
 
 .tekst-rechts {
-float: right;
+  float: right;
 }
 
 .video {
-text-align: center;
-margin: 30px auto;
-padding: 20px;
-max-width: 75%; /*Maximale breedte van het witte vlak*/
-background-color: white;
-border-radius: 12px;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  text-align: center;
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 75%; /*Maximale breedte van het witte vlak*/
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.video iframe { /*iframe zorgt ervoor dat dit alleen op het filmpje wordt toegepast.*/
-width: 100%; /*Maximale breedte van het filmpje*/
-aspect-ratio: 16 / 9; /*Zorgt ervoor dat de hoogte en breedte de goede verhouding houden.*/
+.video iframe { /*iframe zorgt ervoor dat dit alleen op het filmpje zelf wordt toegepast.*/
+  width: 100%; /*Maximale breedte van het filmpje*/
+  aspect-ratio: 16 / 9; /*Zorgt ervoor dat de hoogte en breedte de goede verhouding houden.*/
 }
 
 .knop {
-display: inline-block; /*Dit is een normaal blok, maar door inline neemt het blok alleen de
-benodigde ruimte in en niet extra onnodige ruimte op een nieuwe regel.*/
-border: none; /*Zorgt ervoor dat er geen rand om de knop heen zit.*/
-padding: 10px 20px;
-background-color: #CFAB8D;
-color: black;
-text-decoration: none; /*Zorgt ervoor dat de knop er niet meer als een link uit ziet, dus de onderstreping is weg*/
-border-radius: 12px;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  display: inline-block; /*Dit is een normaal blok, maar door inline neemt het blok alleen de
+  benodigde ruimte in en niet extra onnodige ruimte op een nieuwe regel.*/
+  border: none; /*Zorgt ervoor dat er geen rand om de knop heen zit.*/
+  padding: 10px 20px;
+  background-color: #CFAB8D;
+  color: black;
+  text-decoration: none; /*Zorgt ervoor dat de knop er niet meer als een link uit ziet, dus de onderstreping is weg*/
+  border-radius: 12px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
+
+.responsive-picture {
+  width: 100%; 
+  text-align: center;
+}
+
