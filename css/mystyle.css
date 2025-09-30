@@ -163,6 +163,8 @@ footer {
 
 .responsive-picture {
   width: 100%;
-  text-align: center;
+  height: auto; /*Zorgt ervoor dat de afbeelding automatisch de goede hoogte heeft*/
+  display: block; /*Zorgt ervoor dat hij wordt gezien als block element.*/
+  margin: 0 auto; /*Auto zorgt ervoor dat de afbeelding in het midden komt.*/
 }
 
